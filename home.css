@@ -1,0 +1,63 @@
+body{
+    background-color: antiquewhite;
+}
+
+.grid{
+    width: 600px;
+    height:500px;
+    
+    background-color: #fff;
+    padding: 10px,50px,50px,50px;
+    border: 2px solid black;
+    margin: 0 auto ;
+}
+
+h1{
+    background-color: green;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    line-height: 60px;
+    margin: 20px;
+}
+
+#question{
+    font-family: 'Courier New';
+    font-size: large;
+    color: blue;
+    margin-left: 20px;
+
+}
+
+.button{
+    margin-top: 20px;
+}
+
+#btn0,#btn1,#btn2,#btn3{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#btn0:hover,#btn1:hover,#btn2:hover,#btn3:hover{
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+#btn0:focus,#btn1:focus,#btn2:focus,#btn3:focus{
+    outline: 0;
+    
+}
+
+#progress{
+    color: brown;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+
